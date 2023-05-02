@@ -15,7 +15,7 @@ const Header = () => {
           </h1>
         </div>
         <div className="headerDetails">
-          <img src={img1} alt="light lamp" />
+          <img src={img1} alt="light lamp" className="img1" />
           <img src={img2} alt="light lamp" />
           <div className="headerText">
             <p>
