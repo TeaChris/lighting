@@ -26,6 +26,7 @@ const Header = () => {
             <div className="headerIcon">
               <BsFillPlayFill
                 style={{
+                  fontSize:'1rem',
                   display: 'grid',
                   placeItems: 'center',
                   width: '1.5rem',

@@ -32,18 +32,19 @@ const Navbar = () => {
     transition: 'background-color 0.5s ease',
     // other styles...
   }
+
   return (
     <nav style={navbarStyle}>
       <div className="container navContainer">
         <Link to="/" className="logo">
-          <h2>Lighting</h2>
+          <h2>Lighting.</h2>
         </Link>
         {/* links */}
         <ul className={`nav_links ${isShowing ? 'showNav' : 'hideNav'}`}>
           {navLinks.map((link, index) => {
             return (
               <li key={index}>
-                <NavLink to={link.href} className="" style={{ color: '#fff' }}>
+                <NavLink to={link.href} style={{ color: '#fff' }}>
                   {link.name}
                 </NavLink>
               </li>
@@ -51,7 +52,9 @@ const Navbar = () => {
           })}
         </ul>
         <div className="cart">
-          <AiOutlineShoppingCart style={{ fontSize: '1.2rem' }} />
+          <AiOutlineShoppingCart
+            style={{ fontSize: '1.2rem', cursor: 'pointer' }}
+          />
         </div>
         <button
           className="navBtn"

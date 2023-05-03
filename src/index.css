@@ -20,7 +20,7 @@ html {
 :root {
   --color-white: #fff;
   --color-black: #000;
-  --color-gray: rgba(255, 255, 255, 0.25);
+  --color-gray: #202020;
   --color-primary: #f4511e;
 
   --container-width-lg: 80%;
@@ -54,12 +54,31 @@ h1 {
   font-size: 2.5rem;
 }
 
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
 p {
   font-size: 0.85rem;
 }
 
+a {
+  font-size: 0.85rem;
+  color: var(--color-white);
+  cursor: pointer;
+}
+
 h5 {
   font-size: 1rem;
+}
+
+section {
+  width: 100%;
+  margin-top: 8rem;
 }
 
 img {
@@ -74,6 +93,7 @@ img {
   color: var(--color-white);
   background: var(--color-primary);
   transition: var(--transition);
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -125,6 +145,190 @@ header {
   display: flex;
   align-items: center;
   gap: 0.85rem;
+}
+
+/* =====================PRODUCTS */
+.productContainer {
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  padding: 2rem 0;
+  overflow-x: hidden;
+}
+
+.productTitle h2 {
+  font-weight: 100;
+  text-transform: capitalize;
+}
+
+.productImage {
+}
+
+.productsImg {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  position: relative;
+}
+
+.productsImg img {
+  width: 23rem;
+}
+
+.productNext {
+  width: 2rem;
+  height: 2rem;
+  background: var(--color-primary);
+  display: grid;
+  place-items: center;
+  position: absolute;
+  border-radius: 50%;
+  top: 40%;
+  right: 5%;
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.productNext:hover {
+  background: transparent;
+  border: 1px solid var(--color-primary);
+}
+
+/* =====================UNIQUE */
+.uniqueContainer {
+  height: 42rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.uniqueTitle > h2 {
+  font-weight: 100;
+}
+
+.uniqueBottom {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.uniqueLeft {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+}
+
+.uniqueLeftBottom {
+  display: flex;
+  align-items: start;
+  gap: 2rem;
+}
+.uniqueLeftBottom img {
+  width: 10rem;
+  height: 12rem;
+}
+
+.uniqueText {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.uniqueRightImg img {
+  width: 26rem;
+  height: 32rem;
+}
+
+/* =====================NEW ARRIVAL */
+.newContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.newTitle > h2 {
+  font-weight: 100;
+}
+
+.newImage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.newImg {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.newSee {
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+
+/* =====================HERO */
+.heroContainer {
+  width: 60rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem;
+  background: var(--color-gray);
+  border-radius: 2rem;
+}
+
+.heroDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.heroDetails > h2 {
+  font-weight: 100;
+}
+
+.heroImage img {
+  width: 33rem;
+}
+
+footer {
+  width: 100%;
+  height: 10rem;
+  margin-top: 8rem;
+}
+
+.footerContainer {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.footerLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.footerLinks > h3 {
+  text-transform: capitalize;
+  font-weight: 100;
+  margin-bottom: 0.5rem;
+}
+
+.footerLinks > a {
+  text-transform: capitalize;
 }
 
 /* =====================MEDIUM DEVICES */
