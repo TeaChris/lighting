@@ -7,22 +7,22 @@ const Footer = () => {
         </div>
         <div className="footerLinks">
           <h3>About</h3>
-          <a>about us</a>
-          <a>features</a>
-          <a>New & Blog</a>
+          <a href="#">about us</a>
+          <a href="#">features</a>
+          <a href="#">New & Blog</a>
         </div>
         <div className="footerLinks">
           <h3>connect</h3>
-          <a>linkdin</a>
-          <a>facebook</a>
-          <a>twitter</a>
-          <a>instagram</a>
+          <a href="#">linkdin</a>
+          <a href="#">facebook</a>
+          <a href="#">twitter</a>
+          <a href="#">instagram</a>
         </div>
         <div className="footerLinks">
           <h3>support</h3>
-          <a>FAQs</a>
-          <a>support center</a>
-          <a>contact us</a>
+          <a href="#">FAQs</a>
+          <a href="#">support center</a>
+          <a href="#">contact us</a>
         </div>
       </div>
     </footer>

@@ -19,7 +19,7 @@ nav {
 }
 
 .logo h2 {
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: 200;
 }
 
@@ -67,6 +67,10 @@ nav {
     flex-direction: column;
     gap: 0;
     perspective: 400px;
+    background: var(--color-black);
+    width: 30vw;
+    height: 30rem;
+    padding: 1rem;
   }
 
   .nav_links li {

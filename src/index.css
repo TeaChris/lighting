@@ -13,10 +13,6 @@
   font-family: 'Lora', serif;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 :root {
   --color-white: #fff;
   --color-black: #000;
@@ -68,6 +64,7 @@ p {
 
 a {
   font-size: 0.85rem;
+  font-weight: 100;
   color: var(--color-white);
   cursor: pointer;
 }
@@ -341,6 +338,10 @@ footer {
     font-size: 2rem;
   }
 
+  h2 {
+    font-size: 1.75rem;
+  }
+
   header {
     height: fit-content;
     padding: 1rem 0;
@@ -354,6 +355,49 @@ footer {
   .headerText {
     padding-right: 1rem;
   }
+
+  /* =====================PRODUCTS */
+  .productsImg .productTwo {
+    display: none;
+  }
+
+  /* =====================UNIQUE */
+  .uniqueContainer {
+    height: 57rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .uniqueTitle > h2 {
+    text-align: center;
+  }
+
+  .uniqueBottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .uniqueRightImg img {
+    width: 20rem;
+    height: 25rem;
+  }
+
+  /* ===========================NEW ARRIVAL */
+  .newImg {
+    display: flex;
+    gap: 3rem;
+  }
+
+  .arrivalTwo {
+    display: none;
+  }
+
+  /* ==========================HERO */
+  .heroImage img {
+    width: 30rem;
+  }
 }
 
 /* ==============================SMALL SCREENS */
@@ -366,6 +410,11 @@ footer {
     font-size: 1.55rem;
   }
 
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  /* =======================HEADER */
   .headerDetails {
     display: flex;
     flex-direction: column;
@@ -386,5 +435,83 @@ footer {
 
   .headerText p {
     text-align: center;
+  }
+
+  .headerIcon {
+    display: none;
+  }
+
+  /* =====================PRODUCTS */
+  .productContainer {
+    height: 25rem;
+  }
+
+  .productsImg .productOne {
+    display: none;
+  }
+
+  .productNext {
+    right: 7%;
+  }
+
+  /* =====================UNIQUE */
+  .uniqueContainer {
+    height: 58rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .uniqueTitle > h2 {
+    text-align: start;
+  }
+
+  .uniqueLeft {
+    width: 20rem;
+  }
+
+  .imgSmall {
+    display: none;
+  }
+
+  .uniqueLeftBottom {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* ===========================NEW ARRIVAL */
+
+  .arrivalOne {
+    display: none;
+  }
+
+  .newContainer {
+    margin-top: 5rem;
+  }
+
+  /* ==========================HERO */
+  .heroContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .heroImage img {
+    width: 20rem;
+  }
+
+  /* =========================FOOTER */
+  .footerContainer {
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+
+  .footerLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }

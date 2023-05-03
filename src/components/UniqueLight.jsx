@@ -23,7 +23,7 @@ const UniqueLight = () => {
               suscipit modi, repellendus nulla.
             </p>
             <div className="uniqueLeftBottom">
-              <img src={img} alt="" />
+              <img src={img} alt="" className="imgSmall" />
               <div className="uniqueText">
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.

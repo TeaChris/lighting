@@ -14,8 +14,8 @@ const Products = () => {
         <div className="productImage">
           <div className="productsImg">
             <img src={img} alt="product" />
-            <img src={img1} alt="product one" />
-            <img src={img2} alt="product two" />
+            <img src={img1} alt="product one" className="productOne" />
+            <img src={img2} alt="product two" className="productTwo" />
             <div className="productNext">
               <BsArrowRightShort />
             </div>

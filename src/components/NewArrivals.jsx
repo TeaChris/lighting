@@ -14,8 +14,8 @@ const NewArrivals = () => {
         <div className="newImage">
           <div className="newImg">
             <img src={img} alt="product" />
-            <img src={img1} alt="product one" />
-            <img src={img2} alt="product two" />
+            <img src={img1} alt="product one" className="arrivalOne" />
+            <img src={img2} alt="product two" className="arrivalTwo" />
           </div>
           <div className="newSee">
             <p>See all</p>
